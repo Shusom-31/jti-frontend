@@ -1,0 +1,15 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { Provider } from 'react-redux';
+import { store } from './store';
+import { App } from './app/app';
+import { ErrorScreen } from './app/screens/error-screen';
+import './styles/tokens.css';
+import './styles/globals.css';
+import './styles/accessibility.css';
+import './styles/sidebar.css';
+import './styles/reporting-period.css';
+import './styles/login-access.css';
+import './styles/organization-employees.css';
+import './styles/switch-movement.css';
+ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><ErrorScreen><Provider store={store}><App /></Provider></ErrorScreen></React.StrictMode>);

@@ -1,0 +1,56 @@
+.employee-table:has(td.previous-assignment-cell) thead tr:first-child th:nth-child(2),
+.employee-table:has(td.previous-assignment-cell) thead tr:first-child th:nth-child(3) {
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.employee-table:has(td.previous-assignment-cell) tbody td {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.employee-table:has(td.previous-assignment-cell) tbody tr:nth-child(odd) td {
+  background: #f5f8f5;
+}
+
+.employee-table:has(td.previous-assignment-cell) tbody tr:nth-child(even) td {
+  background: #fbfcfa;
+}
+
+.employee-table:has(td.previous-assignment-cell) tbody tr:hover td {
+  background: #edf4ee;
+}
+
+.employee-table:has(td.previous-assignment-cell) thead tr:first-child th:nth-child(2) {
+  background: #eaf2e8;
+  color: #365944;
+}
+
+.employee-table:has(td.previous-assignment-cell) tbody td.previous-agency-cell,
+.employee-table:has(td.previous-assignment-cell) thead tr:nth-child(2) th:first-child {
+  background: #eaf2e8;
+  color: #365944;
+}
+
+.employee-table:has(td.previous-assignment-cell) tbody td.previous-agency-cell {
+  font-weight: 750;
+}
+
+.employee-table:has(td.previous-assignment-cell) .new-assignment-cell,
+.employee-table:has(td.previous-assignment-cell) thead tr:first-child th:nth-child(3),
+.employee-table:has(td.previous-assignment-cell) thead tr:nth-child(2) th:nth-child(n + 8) {
+  background: #eaf1f8;
+  color: #36536d;
+}
+
+.employee-table:has(td.previous-assignment-cell) tbody td:nth-child(16),
+.employee-table:has(td.previous-assignment-cell) thead tr:first-child th:nth-child(4) {
+  background: #fbf1df;
+  color: #73572c;
+}
+
+.employee-table:has(td.previous-assignment-cell) tbody td:nth-child(17),
+.employee-table:has(td.previous-assignment-cell) thead tr:first-child th:nth-child(5) {
+  background: #f0edf7;
+  color: #574b72;
+}

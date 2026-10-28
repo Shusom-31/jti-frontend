@@ -1,0 +1,5 @@
+import { ChevronLeft, ChevronRight } from 'lucide-react';
+export function Pagination({ page, size, total, change }: { page: number; size: number; total: number; change: (values: Record<string, string>) => void }) {
+  const pages = Math.max(1, Math.ceil(total / size));
+  return <div className="pagination"><span>{total ? `${(page - 1) * size + 1}–${Math.min(page * size, total)}` : '0'} of {total} results</span><div className="row"><label>Rows <select aria-label="Rows per page" value={size} onChange={e => change({ size: e.target.value, page: '1' })}>{[10, 25, 50].map(n => <option key={n}>{n}</option>)}</select></label><button className="icon-button" disabled={page <= 1} aria-label="Previous page" onClick={() => change({ page: String(page - 1) })}><ChevronLeft size={17} /></button><span>Page {page} of {pages}</span><button className="icon-button" disabled={page >= pages} aria-label="Next page" onClick={() => change({ page: String(page + 1) })}><ChevronRight size={17} /></button></div></div>;
+}

@@ -1,0 +1,8 @@
+.quick-access{margin-top:20px}
+.login-divider{display:flex;align-items:center;gap:12px;color:#75816e;font-size:11px;margin-bottom:17px}
+.login-divider:before,.login-divider:after{content:"";height:1px;background:#dfe5d7;flex:1}
+.quick-sign-in{width:100%;height:43px;justify-content:space-between}
+.login-copyright{display:flex;flex-direction:column;align-items:center;gap:6px;line-height:1.6}
+.login-copyright strong,.powered-by strong{font-weight:600;color:#4e6746}
+.footer .powered-by{white-space:nowrap}
+@media(max-width:580px){.login-form-panel{padding-bottom:85px}.login-copyright{font-size:10px}.quick-access{margin-top:18px}}

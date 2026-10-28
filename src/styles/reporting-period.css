@@ -1,0 +1,12 @@
+.period-options{display:flex;align-items:center;justify-content:flex-end;gap:9px;flex-wrap:wrap}
+.period-toggle{width:auto;flex-shrink:0}
+.period-toggle button{font-size:11px;min-width:70px;padding:7px 12px}
+.period-control{max-width:100%;min-width:0}
+.period-control>span{text-align:right;line-height:1.7}
+.reporting-row>div:first-child{flex-wrap:wrap;line-height:1.8}
+.reporting-row strong{max-width:100%}
+.full-period-notice{background:#edf3e6;border:1px solid #e0e8d8;border-radius:7px;padding:10px 14px;font-size:11px;color:#526c43;margin-bottom:18px;line-height:1.8}
+.unavailable-period{text-align:center;padding-bottom:35px}
+.line-chart.full-history{max-height:none;height:215px}
+.cohort-chart.full-history{max-height:none;height:180px}
+@media(max-width:580px){.period-options{justify-content:flex-start}.period-control>span{text-align:left;font-size:10px}.period-toggle{width:auto}.period-toggle button{min-width:70px}.reporting-row{align-items:flex-start}.full-period-notice{font-size:11px}.period-control{width:100%}.page-heading .period-control{margin-top:2px}}
