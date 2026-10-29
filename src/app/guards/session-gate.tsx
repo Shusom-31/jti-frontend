@@ -14,6 +14,7 @@ export function SessionGate() {
     window.addEventListener('focus', expire);
     return () => { clearTimeout(timer); window.removeEventListener('focus', expire); };
   }, [dispatch, user]);
-  if (!user || user.expiresAt <= Date.now()) return <Navigate to="/login" replace state={{ from: `${location.pathname}${location.search}`, expired: expired || !!user }} />;
+  if (user?.role === 'admin' && user.expiresAt > Date.now()) return <Navigate to="/admin" replace />;
+  if (!user || user.role !== 'workspace' || user.expiresAt <= Date.now()) return <Navigate to="/login" replace state={{ from: `${location.pathname}${location.search}`, expired: expired || !!user }} />;
   return <Outlet />;
 }

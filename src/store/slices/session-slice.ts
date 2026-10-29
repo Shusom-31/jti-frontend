@@ -3,7 +3,7 @@ import { SESSION_KEY, type SessionUser } from '../../config/access/session';
 function restore(): SessionUser | null {
   try {
     const value = JSON.parse(sessionStorage.getItem(SESSION_KEY) || 'null') as SessionUser | null;
-    return value && typeof value.expiresAt === 'number' && value.expiresAt > Date.now() ? { ...value, canLookupNid: true, canRevealNid: false } : null;
+    return value && typeof value.expiresAt === 'number' && value.expiresAt > Date.now() && (value.role === 'workspace' || value.role === 'admin') ? { ...value, organizationIds: Array.isArray(value.organizationIds) ? value.organizationIds : [], canLookupNid: value.role === 'workspace', canRevealNid: false } : null;
   } catch { return null; }
 }
 const sessionSlice = createSlice({

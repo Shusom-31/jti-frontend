@@ -38,7 +38,7 @@ export function OrganizationsScreen() {
       : data.unavailableOrganizations.includes(org.id) ? <div className="empty-state"><h2>Organization data is unavailable</h2><p>Try again when the organization connection is available.</p></div>
       : <div className="organization-workspace">
         <FilterBar exclude={['organization', 'department', 'designation']} resultCount={organizationEmployees(data, filters, context, params).length} />
-        <KpiCards summary={summarize(rows, period)} inline />
+        <KpiCards summary={summarize(rows, period)} />
         <OrganizationEmployees />
         <LocationExplorer />
       </div>}

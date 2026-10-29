@@ -1,56 +1,134 @@
+.employee-table:has(td.previous-assignment-cell) tbody tr {
+  --switch-cell-background: #1e293b;
+}
+
+.employee-table:has(td.previous-assignment-cell) tbody tr:nth-child(even) {
+  --switch-cell-background: #243247;
+}
+
+.employee-table:has(td.previous-assignment-cell) tbody td {
+  background: var(--switch-cell-background) !important;
+  color: #fff !important;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.employee-table:has(td.previous-assignment-cell) tbody tr:hover td {
+  background: color-mix(in srgb, var(--switch-cell-background) 90%, white) !important;
+}
+
 .employee-table:has(td.previous-assignment-cell) thead tr:first-child th:nth-child(2),
 .employee-table:has(td.previous-assignment-cell) thead tr:first-child th:nth-child(3) {
   font-size: 12px;
   font-weight: 800;
 }
 
-.employee-table:has(td.previous-assignment-cell) tbody td {
-  font-size: 12px;
-  font-weight: 600;
+.employee-table:has(td.previous-assignment-cell) tbody td.previous-assignment-cell {
+  --switch-cell-background: #22344a;
 }
 
-.employee-table:has(td.previous-assignment-cell) tbody tr:nth-child(odd) td {
-  background: #f5f8f5;
-}
-
-.employee-table:has(td.previous-assignment-cell) tbody tr:nth-child(even) td {
-  background: #fbfcfa;
-}
-
-.employee-table:has(td.previous-assignment-cell) tbody tr:hover td {
-  background: #edf4ee;
-}
-
-.employee-table:has(td.previous-assignment-cell) thead tr:first-child th:nth-child(2) {
-  background: #eaf2e8;
-  color: #365944;
-}
-
-.employee-table:has(td.previous-assignment-cell) tbody td.previous-agency-cell,
-.employee-table:has(td.previous-assignment-cell) thead tr:nth-child(2) th:first-child {
-  background: #eaf2e8;
-  color: #365944;
+.employee-table:has(td.previous-assignment-cell) thead tr:first-child th:nth-child(2),
+.employee-table:has(td.previous-assignment-cell) thead tr:nth-child(2) th:nth-child(-n + 7) {
+  background: #22344a !important;
+  color: #fff !important;
 }
 
 .employee-table:has(td.previous-assignment-cell) tbody td.previous-agency-cell {
+  --switch-cell-background: #2a435e;
   font-weight: 750;
 }
 
-.employee-table:has(td.previous-assignment-cell) .new-assignment-cell,
+.employee-table:has(td.previous-assignment-cell) thead tr:nth-child(2) th:first-child {
+  background: #2a435e !important;
+}
+
+.employee-table:has(td.previous-assignment-cell) tbody td.new-assignment-cell {
+  --switch-cell-background: #173848;
+}
+
 .employee-table:has(td.previous-assignment-cell) thead tr:first-child th:nth-child(3),
 .employee-table:has(td.previous-assignment-cell) thead tr:nth-child(2) th:nth-child(n + 8) {
-  background: #eaf1f8;
-  color: #36536d;
+  background: #173848 !important;
+  color: #fff !important;
 }
 
-.employee-table:has(td.previous-assignment-cell) tbody td:nth-child(16),
+.employee-table:has(td.previous-assignment-cell) tbody td:nth-child(9) {
+  --switch-cell-background: #1d4557;
+  border-left: 2px solid #7dd3fc !important;
+  font-weight: 750;
+}
+
+.employee-table:has(td.previous-assignment-cell) thead tr:nth-child(2) th:nth-child(8) {
+  background: #1d4557 !important;
+  border-left: 2px solid #7dd3fc !important;
+}
+
+.employee-table:has(td.previous-assignment-cell) tbody td:nth-child(16) {
+  --switch-cell-background: #fef3c7;
+  color: #713f12 !important;
+}
+
 .employee-table:has(td.previous-assignment-cell) thead tr:first-child th:nth-child(4) {
-  background: #fbf1df;
-  color: #73572c;
+  background: #fde68a !important;
+  color: #713f12 !important;
 }
 
-.employee-table:has(td.previous-assignment-cell) tbody td:nth-child(17),
+.employee-table:has(td.previous-assignment-cell) tbody td:nth-child(17) {
+  --switch-cell-background: #322741;
+}
+
 .employee-table:has(td.previous-assignment-cell) thead tr:first-child th:nth-child(5) {
-  background: #f0edf7;
-  color: #574b72;
+  background: #322741 !important;
+  color: #fff !important;
+}
+
+.switch-controls .filter-chips > .text-button {
+  padding: 7px 10px;
+  border: 1px solid #64748b;
+  border-radius: 6px;
+  background: #334155;
+  color: #fff;
+}
+
+.table-scroll table.matrix :is(th, td) {
+  padding: 13px;
+  border: 1px solid #3b536d !important;
+  color: #fff !important;
+}
+
+.table-scroll table.matrix thead th,
+.table-scroll table.matrix tbody th {
+  background: #263e58 !important;
+  color: #fff !important;
+}
+
+.table-scroll table.matrix tbody td {
+  background: #192e44 !important;
+}
+
+.table-scroll table.matrix tbody td:has(> .muted) {
+  background: #0f172a !important;
+}
+
+.table-scroll table.matrix tbody td:has(.matrix-cell.has-value) {
+  background: #1d455f !important;
+}
+
+.matrix .matrix-cell {
+  width: 100%;
+  min-width: 44px;
+  border: 1px solid #526b84;
+  background: #2a435e !important;
+  color: #fff !important;
+}
+
+.matrix .matrix-cell.has-value {
+  border-color: #7dd3fc;
+  background: #256087 !important;
+  color: #fff !important;
+  font-weight: 750;
+}
+
+.matrix .matrix-cell:hover {
+  background: #365a7a !important;
 }

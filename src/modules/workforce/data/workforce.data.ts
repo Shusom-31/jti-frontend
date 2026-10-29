@@ -2,7 +2,7 @@ import type { Assignment, Organization, Person, Switch, WorkforceSnapshot } from
 import { addDays, daysBetween } from '../../../lib/utils/format';
 
 export const organizations: Organization[] = [
-  { id: 'sky', name: 'Sky Tracker ltd', initials: 'ST', color: '#2f7461', demo: false },
+  { id: 'sky', name: 'Sky Tracker ltd', initials: 'ST', color: '#f8fafc', demo: false },
   { id: 'delta', name: 'Delta Connect', initials: 'DC', color: '#7786bc', demo: true },
   { id: 'nova', name: 'Nova Fieldforce', initials: 'NF', color: '#cf945a', demo: true },
 ];

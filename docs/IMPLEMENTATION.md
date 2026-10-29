@@ -1,4 +1,6 @@
-﻿# কী কী implement করা হয়েছে — 28 October 2026
+﻿# কী কী implement করা হয়েছে — 29 October 2026
+
+সর্বশেষ পরিবর্তন: অনুরোধ অনুযায়ী Attrition & Retention-এর সম্পূর্ণ page UI ও sidebar link সরানো হয়েছে। ওই পেজের early attrition, tenure, cohort, heatmap, exit-reason table ও metric-definition section আর নেই। পুরোনো `/retention` URL reporting filters রেখে Dashboard-এ নেয়। Dashboard ও অন্য পেজের Attrition metric এখন matching leavers-এর Organization list খোলে। Shared analytics calculation রাখা হয়েছে।
 
 দেওয়া requirements ও module structure অনুসারে খালি repository-তে frontend তৈরি করা হয়েছে। অনুরোধ অনুযায়ী কাজের তালিকা docs-এর সবার উপরে রাখা হয়েছে। সব employee, NID ও metric demo fixture; live backend যুক্ত করা বাকি।
 
@@ -52,7 +54,7 @@ The fixture adapter supports loading, retry and partial agency states. Its simul
 | `/` | `modules/overview` | Combined summary, three organizations and charts |
 | `/organizations` | `modules/organizations` | Three-card selector or selected agency dashboard with reduced filters, inline employee information and location explorer |
 | `/movement` | `modules/movement` | Monthly movement, waterfall, locations and exit reasons |
-| `/retention` | `modules/retention` | Attrition, early exits, cohorts, tenure and heatmap |
+| `/retention` | Legacy redirect | Dashboard-এ redirect; এই route-এর নিজস্ব UI নেই |
 | `/switches` | `modules/switches` | Matched person transitions, exact NID history, matrix and alerts |
 | `/directory` | `modules/employees` | Every overlapping assignment or explicit metric set, profiles and CSV |
 

@@ -12,4 +12,6 @@ import './styles/reporting-period.css';
 import './styles/login-access.css';
 import './styles/organization-employees.css';
 import './styles/switch-movement.css';
+import './styles/admin.css';
+import './styles/theme.css';
 ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><ErrorScreen><Provider store={store}><App /></Provider></ErrorScreen></React.StrictMode>);

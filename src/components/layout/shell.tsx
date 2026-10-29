@@ -71,7 +71,7 @@ function ShellContent() {
                 className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
               >
                 <item.icon size={18} /><span>{item.label}</span>
-                {item.to === '/organizations' && <small>3</small>}
+                {item.to === '/organizations' && data && <small>{data.organizations.length}</small>}
               </NavLink>
             </div>
           ))}

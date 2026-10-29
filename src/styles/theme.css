@@ -1,0 +1,145 @@
+:root{color-scheme:dark}
+html,body,#root,.app-shell,.main-shell,.main-content,.admin-page,.admin-main,.login-form-panel{background:#0F172A;color:#e2e8f0}
+.sidebar,.admin-sidebar,.login-story{background:#1E293B!important;color:#e2e8f0}
+.sidebar{border-right-color:#334155}
+.sidebar .brand,.sidebar .user-block,.sidebar .nav-link,.sidebar .nav-group,.sidebar .user-block strong{color:#e2e8f0}
+.sidebar .brand>div>span,.sidebar .user-block small,.sidebar .nav-group{color:#94a3b8}
+.sidebar .brand-symbol,.sidebar .avatar,.admin-avatar{background:#0F172A;color:#e2e8f0}
+.sidebar .nav-link:hover,.sidebar .nav-link.active,.sidebar .icon-button:hover{background:#0F172A;color:#f8fafc}
+.sidebar .nav-link.active svg{color:#cbd5e1}
+.sidebar .nav-link small{background:#334155;color:#e2e8f0}
+.sidebar .user-block{border-top-color:#334155}
+.sidebar-note,.workspace-label{background:#0F172A;border-color:#334155;color:#cbd5e1}
+.main-shell,.admin-main{color:#e2e8f0}
+.topbar,.admin-topbar{background:#0F172A;border-color:#334155;color:#cbd5e1}
+.topbar-breadcrumb,.topbar-breadcrumb strong,.admin-topbar>span:first-child,.admin-topbar strong{color:#cbd5e1}
+.topbar-breadcrumb span,.topbar-divider,.admin-topbar i{color:#64748b;border-color:#334155}
+.main-content,.admin-content{color:#e2e8f0}
+.panel,.filter-panel,.kpi-card,.organization-card,.admin-panel,.admin-stat-grid article,.admin-source-panel,.login-copyright,.drawer,.timeline-details,.guide-panel,.definition-note,.scope-notice,.insight-strip,.nid-lookup,.segmented,.rank-track,.bar-track,.matrix-cell,.heatmap,.cohort-table,.employee-table,.table-scroll,.profile-section,.profile-fields,.profile-identity,.error-state,.empty-state,.notice,.warning,.selected-row,.transition{background:#1E293B!important;color:#e2e8f0;border-color:#334155}
+.organization-card:hover,.selected-row,.matrix-cell.has-value{background:#263449!important}
+.topbar,.admin-topbar,.footer,.admin-footer,.identity-cell,.identity-cell.sticky{background-color:#0F172A!important;color:#cbd5e1;border-color:#334155}
+.footer,.admin-footer{border-color:#334155}
+.footer strong,.admin-footer strong,.admin-stat-grid article strong,.admin-table td strong,.section-title h2,.page-heading h1,.section-heading h2,.section-title h2,.admin-heading h1,.admin-table,.employee-table,.table-summary,.pagination{color:#e2e8f0}
+.page-heading p,.section-heading p,.section-title p,.chart-hint,.scope-line,.period-control>span,.kpi-bottom,.kpi-label,.kpi-card p,.retention-kpis .kpi-card p,.data-caveat,.footer,.table-summary,.pagination,.field>span:first-child,.filter-top>span,.filter-top .muted,.organization-count span,.organization-metrics span,.organization-action,.nav-group,.nav-link,.topbar-breadcrumb,.demo-indicator,.admin-heading p,.admin-source-panel>p,.admin-source-top small,.admin-org-id,.admin-stat-grid article span,.admin-stat-grid article strong small,.admin-topbar>span:first-child,.admin-topbar strong{color:#94a3b8!important}
+td,th,.employee-link,.employee-link strong,.employee-link small,.profile-fields dt,.profile-fields dd,.identity-match,.timeline-node h4,.timeline-node p,.timeline-details dt,.timeline-details dd,.admin-table td,.admin-table th{color:#cbd5e1}
+.employee-link,.employee-link strong,.text-green,.metric-link.text-green{color:#a7c0d5!important}
+.text-rose,.metric-link.text-rose,.status.left{color:#e4a5ad!important}
+.status.active{color:#b8d2c1!important}
+.badge,.badge.tiny,.count-badge,.admin-preview-badge{background:#0F172A!important;color:#cbd5e1!important;border-color:#334155}
+.button,.sign-in,.quick-sign-in{background:#1E293B;border-color:#475569;color:#f8fafc}
+.button:hover,.sign-in:hover,.quick-sign-in:hover{background:#334155}
+.button.secondary,.text-button,.icon-button{color:#cbd5e1}
+.button.secondary{background:#1E293B;border-color:#475569}
+.button.secondary:hover,.icon-button:hover{background:#334155}
+.text-button:hover{color:#fff}
+input,select,textarea,.field input,.field select,.search-input input,.filter-panel input,.filter-panel select,.admin-table input{background:#0F172A!important;color:#f1f5f9!important;border-color:#475569!important}
+input::placeholder,textarea::placeholder{color:#64748b}
+input[type=checkbox]{accent-color:#94a3b8}
+.kpi-icon,.insight-icon,.table-avatar,.profile-avatar,.admin-source-icon,.alert-icon,.timeline-dot{background:#0F172A!important;color:#cbd5e1;border-color:#475569}
+.admin-status-toggle.is-active,.admin-status-pill.is-active{background:#263449;color:#d1e5d7;border-color:#475569}
+.admin-status-toggle.is-inactive,.admin-status-pill.is-inactive{background:#352c3c;color:#f0c4cb;border-color:#5b4352}
+.admin-inline-success{background:#263449;color:#fff}
+.admin-preview-banner{background:#273247;border-color:#475569;color:#d4dbea}
+.admin-preview-banner strong{color:#f1f5f9}
+.admin-stat-grid article strong{color:#e2e8f0}
+.admin-table tbody tr:hover,.employee-table tbody tr:hover{background:#263449}
+.line-chart,.cohort-chart,.heatmap,.matrix,.timeline{color:#cbd5e1}
+.line-chart text,.cohort-chart text{fill:#94a3b8}
+.login-form-panel{background:#0F172A}
+.login-form-inner h2{color:#e2e8f0}
+.login-form-inner .field>span:first-child{color:#fff!important}
+.login-form-inner>.muted,.login-security,.login-copyright{color:#94a3b8!important}
+.login-form-inner .field input{background:#1E293B!important;color:#f1f5f9!important;border-color:#475569!important}
+.login-story .brand,.login-story .brand>div>span,.login-story-copy>p,.login-bottom{color:#cbd5e1}
+.login-story .brand-symbol{background:#0F172A;color:#e2e8f0}
+.login-story h1>span{color:#cbd5e1}
+.login-art .art-stats{background:#0F172A;border-color:#475569}
+.login-art .art-stats>span,.login-art .art-stats small{color:#94a3b8}
+.login-copyright{background:transparent!important}
+.login-recovery-link{color:#cbd5e1}
+.login-reset-note{color:#94a3b8}
+.skeleton{background:linear-gradient(100deg,#1E293B 30%,#334155 50%,#1E293B 70%)}
+.drawer{box-shadow:-18px 0 45px #02061766}
+@media(max-width:800px){.sidebar-backdrop{background:#0F172Acc}}
+
+/* White brand and KPI text for the navy/slate palette. */
+.login-copyright strong,.login-copyright .powered-by strong,.footer .powered-by strong{color:#fff!important}
+.login-story .overline.light i,.login-story h1>span,.login-security svg{color:#fff!important}
+.kpi-value,.kpi-card .kpi-value,.retention-kpis .kpi-value{color:#fff!important}
+
+/* Sky rows keep every table readable, including sticky employee identity cells. */
+table thead tr{background:#1E293B!important}
+table thead th{background:#1E293B!important;color:#e2e8f0!important;border-color:#334155!important}
+table tbody tr,table tbody tr:nth-child(even),.admin-table tbody tr,.employee-table tbody tr{background:#e0f2fe!important;color:#0F172A!important}
+table tbody tr:hover,.admin-table tbody tr:hover,.employee-table tbody tr:hover{background:#bae6fd!important;color:#0F172A!important}
+table tbody td,table tbody td :is(span,strong,small),table tbody td button,table tbody td a,.admin-table tbody td,.employee-table tbody td{color:#0F172A!important;border-color:#bae6fd!important}
+.employee-table tbody td .employee-link,.employee-table tbody td .employee-link :is(strong,small),.table-scroll table tbody td .metric-link,.table-scroll table tbody td .metric-link.text-green,.table-scroll table tbody td .metric-link.text-rose{color:#0F172A!important}
+.employee-table .identity-cell,.employee-table .identity-cell.sticky{background:#e0f2fe!important;color:#0F172A!important}
+.employee-table tbody tr:hover .identity-cell{background:#bae6fd!important}
+.employee-table .status.active,.employee-table .status.left,.status.active,.status.left{display:inline-flex;align-items:center;padding:4px 8px;border-radius:999px;color:#0F172A!important;background:#bae6fd!important}
+.employee-table .status.left,.status.left{background:#cbd5e1!important}
+.admin-status-toggle.is-active,.admin-status-pill.is-active{background:#bae6fd!important;color:#075985!important;border-color:#7dd3fc!important}
+.admin-status-toggle.is-inactive,.admin-status-pill.is-inactive{background:#cbd5e1!important;color:#334155!important;border-color:#94a3b8!important}
+
+/* Raise the contrast of the pale green helper and reporting labels. */
+.reporting-row,.reporting-row>div:first-child,.reporting-row strong,.reporting-row .period-control>span,.period-control>span,.filter-top>span,.filter-top .muted,.filter-top .text-button,.filter-chips .muted,.muted,.eyebrow,.page-heading p,.section-heading p,.section-title p,.chart-hint,.scope-line,.kpi-bottom,.kpi-label,.kpi-card p,.organization-count span,.organization-metrics span,.organization-action,.table-summary,.pagination,.footer,.admin-heading p,.admin-source-panel>p,.admin-source-top small,.admin-org-id,.admin-stat-grid article span,.admin-stat-grid article strong small{color:#f8fafc!important}
+.reporting-row .badge{color:#f8fafc!important;background:#1E293B!important;border-color:#475569!important}
+table tbody td .muted,table tbody td .employee-link :is(strong,small),table tbody td .employee-link,.table-scroll table tbody td .metric-link{color:#0F172A!important}
+.login-form-inner>.muted,.login-security,.login-copyright{color:#f8fafc!important}
+
+/* Green typography uses white on the dark surfaces. */
+.text-green,.metric-link.text-green,.employee-link,.organization-action,.organization-employee-views button,.nav-link.active,.admin-nav-link.active,.title-dot,.status.active,.kpi-value{color:#fff!important}
+table tbody td .employee-link,table tbody td .employee-link :is(strong,small),table tbody td .metric-link,table tbody td .metric-link.text-green,table tbody td .metric-link.text-rose,.employee-table .status.active,.employee-table .status.left{color:#0F172A!important}
+.scope-notice,.scope-notice strong,.scope-notice span,.scope-notice :is(a,button){color:#fff!important}
+.period-toggle button,.period-toggle button.selected{color:#fff!important}
+.period-toggle button.selected{background:#0F172A!important;border-color:#475569!important}
+.sidebar .nav-link,.sidebar .nav-link.active{color:#fff!important;font-weight:600}
+.sidebar .nav-link svg,.sidebar .nav-link.active svg{color:#fff!important}
+
+/* Keep table rows on the dark theme with white text. */
+table thead tr,table thead th{background:#0F172A!important;color:#fff!important;border-color:#334155!important}
+table tbody tr,table tbody tr:nth-child(even),.admin-table tbody tr,.employee-table tbody tr{background:#1E293B!important;color:#fff!important}
+table tbody tr:nth-child(even){background:#243247!important}
+table tbody tr:hover,.admin-table tbody tr:hover,.employee-table tbody tr:hover{background:#334155!important;color:#fff!important}
+table tbody td,table tbody td :is(span,strong,small),table tbody td button,table tbody td a,.admin-table tbody td,.employee-table tbody td{color:#fff!important;border-color:#334155!important}
+.employee-table .identity-cell,.employee-table .identity-cell.sticky{background:#1E293B!important;color:#fff!important}
+.employee-table tbody tr:nth-child(even) .identity-cell{background:#243247!important}
+.employee-table tbody tr:hover .identity-cell{background:#334155!important}
+.employee-table tbody td .employee-link,.employee-table tbody td .employee-link :is(strong,small),.table-scroll table tbody td .metric-link,.table-scroll table tbody td .metric-link.text-green,.table-scroll table tbody td .metric-link.text-rose{color:#fff!important}
+.employee-table .status.active,.status.active,.admin-status-toggle.is-active,.admin-status-pill.is-active{background:#166534!important;color:#fff!important;border-color:#22c55e!important}
+.employee-table .status.left,.status.left,.admin-status-toggle.is-inactive,.admin-status-pill.is-inactive{background:#991b1b!important;color:#fff!important;border-color:#ef4444!important}
+.employee-table .status.active,.status.active,.admin-status-toggle.is-active,.admin-status-pill.is-active{background:#bbf7d0!important;color:#14532d!important;border-color:#86efac!important;border-radius:5px!important}
+.employee-table .status.active,.status.active,.admin-status-toggle.is-active,.admin-status-pill.is-active{background:rgba(34,197,94,.18)!important;color:#86efac!important;border:1px solid rgba(74,222,128,.42)!important;border-radius:5px!important}
+.employee-table .status.left,.status.left,.admin-status-toggle.is-inactive,.admin-status-pill.is-inactive{background:rgba(239,68,68,.16)!important;color:#fca5a5!important;border:1px solid rgba(248,113,113,.4)!important;border-radius:5px!important}
+.section-heading>.text-button{color:#fff!important}
+.main-content .donut-legend button,.main-content .donut-legend button strong,.main-content .waterfall-column>span,.main-content .waterfall-bar strong,.main-content .ranked-bars>button,.main-content .ranked-bars>button>strong,.main-content .unobserved,.main-content .cohort-cell .small,.main-content .heat-legend,.main-content .definition-note,.main-content .definition-note strong,.main-content .insight-strip p,.main-content .insight-strip strong,.main-content .insight-strip button,.main-content .nid-lookup,.main-content .nid-lookup .small,.main-content .empty-state,.main-content .empty-state p,.main-content .profile-fields dt,.main-content .profile-fields dd,.main-content .profile-identity p,.main-content .identity-match,.main-content .timeline-node h4,.main-content .timeline-node p,.main-content .timeline-details dt,.main-content .timeline-details dd,.main-content .organization-employee-views button,.main-content .organization-employee-tools .field>span{color:#fff!important}
+.main-content .status.active{color:#86efac!important}
+.main-content .status.left{color:#fca5a5!important}
+.organization-card .organization-name h3,.organization-card .organization-metrics>div>span,.organization-card .organization-metrics>div>strong,.organization-card .organization-count>strong{color:#fff!important}
+.reporting-row .live-dot{background:#fff!important;box-shadow:0 0 0 3px rgba(255,255,255,.14)}
+.main-content .chart-legend>span,.main-content .stacked-label,.main-content .stacked-label>span,.main-content .stacked-label>strong,.main-content .stacked-chart .bar-track>button,.main-content select[aria-label="Composition split"],.main-content select[aria-label="Composition split"] option{color:#fff!important}
+.location-breadcrumb,.location-breadcrumb a,.location-breadcrumb span,.location-breadcrumb+.table-scroll table tbody td:first-child .employee-link{color:#fff!important}
+.organization-employee-views button{background:#0F172A!important;border-color:#64748b!important;color:#fff!important}
+.organization-employee-views button:hover{background:#263449!important}
+.organization-employee-views button.selected{background:#334155!important;border-color:#fff!important}
+.search-input{background:#0F172A;border-color:#fff!important;color:#fff}
+.search-input input{border:0!important}
+
+/* Neutral accents throughout the interface; status badges retain their meaning. */
+.org-avatar,.org-avatar.heading-avatar{background:#334155!important;color:#fff!important}
+.chip,.full-period-notice,.overlap-list>button{background:#1E293B!important;border-color:#475569!important;color:#fff!important}
+.segmented button.selected{background:#334155!important;color:#fff!important;box-shadow:none}
+.admin-sidebar .brand-symbol,.admin-avatar{background:#0F172A;color:#fff}
+.admin-sidebar .admin-brand small,.admin-identity small,.admin-signout,.admin-inline-success,.admin-source-icon{color:#fff}
+.art-stats>svg,.art-stats>span,.art-stats small,.login-divider{color:#fff}
+.art-bars i{background:rgba(255,255,255,.55)}
+.art-bars i:nth-child(even){background:rgba(255,255,255,.85)}
+.art-dot{background:rgba(255,255,255,.12)}
+.rank-track>i{background:#fff}
+.heat-legend i{background:linear-gradient(90deg,rgba(255,255,255,.06),rgba(255,255,255,.5))}
+.line-chart text,.cohort-chart text{fill:#fff}
+.sidebar,.table-scroll{scrollbar-color:#64748b #0F172A}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline-color:#fff}
+.topbar .avatar.small-avatar{background:#f1f5f9;color:#0F172A!important}
+.organization-card .organization-metrics{grid-template-columns:repeat(3,minmax(0,1fr))}
+.organization-card .organization-metrics>div:last-child{display:flex}

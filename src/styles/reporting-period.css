@@ -5,7 +5,7 @@
 .period-control>span{text-align:right;line-height:1.7}
 .reporting-row>div:first-child{flex-wrap:wrap;line-height:1.8}
 .reporting-row strong{max-width:100%}
-.full-period-notice{background:#edf3e6;border:1px solid #e0e8d8;border-radius:7px;padding:10px 14px;font-size:11px;color:#526c43;margin-bottom:18px;line-height:1.8}
+.full-period-notice{background:#edf3e6;border:1px solid #e0e8d8;border-radius:7px;padding:10px 14px;font-size:11px;color:#fff;margin-bottom:18px;line-height:1.8}
 .unavailable-period{text-align:center;padding-bottom:35px}
 .line-chart.full-history{max-height:none;height:215px}
 .cohort-chart.full-history{max-height:none;height:180px}

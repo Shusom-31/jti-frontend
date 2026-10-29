@@ -2,7 +2,7 @@
 .organization-employees{scroll-margin-top:22px}
 .organization-employees>.section-title{align-items:center;flex-wrap:wrap}
 .organization-employee-views{display:flex;align-items:center;flex-wrap:wrap;gap:7px;padding:0 20px 3px}
-.organization-employee-views button{border:1px solid #dfe6d8;background:#f8faf5;border-radius:6px;padding:8px 12px;font-size:11px;color:#667b58}
+.organization-employee-views button{border:1px solid #dfe6d8;background:#f8faf5;border-radius:6px;padding:8px 12px;font-size:11px;color:#fff}
 .organization-employee-views button:hover{background:#edf3e7}
 .organization-employee-views button.selected{background:#225b44;border-color:#225b44;color:#fff}
 .organization-employee-tools{align-items:flex-end}
